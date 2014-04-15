@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/java/ql">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/java/io/static"/>
+	<classpathentry kind="src" path="src/java/test"/>
+	<classpathentry kind="src" path="src/java/serde"/>
+	<classpathentry kind="src" path="src/java/cli"/>
+	<classpathentry kind="src" path="src/resource/conf"/>
+	<classpathentry kind="src" path="src/java/hadoop"/>
+	<classpathentry kind="src" path="src/java/exec"/>
+	<classpathentry kind="src" path="src/java/hcatalog"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/antlr-runtime-3.4.jar" sourcepath="D:/百度云同步盘/技术/开源软件代码/antlr/antlr3-master/runtime/Java"/>
+	<classpathentry kind="lib" path="lib/avro-1.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/avro-mapred-1.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/bonecp-0.7.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-compress-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-api-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-pool-1.5.4.jar"/>
+	<classpathentry kind="lib" path="lib/datanucleus-api-jdo-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/datanucleus-core-3.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/datanucleus-rdbms-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/derby-10.4.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/guava-11.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-0.94.6.1-tests.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-0.94.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/hive-beeline-0.12.0.jar"/>
+	<classpathentry kind="lib" path="lib/hive-cli-0.12.0.jar"/>
+	<classpathentry kind="lib" path="lib/hive-common-0.12.0.jar" sourcepath="D:/java/hive-release-0.12.0"/>
+	<classpathentry kind="lib" path="lib/hive-contrib-0.12.0.jar"/>
+	<classpathentry kind="lib" path="lib/hive-exec-0.12.0.jar" sourcepath="D:/java/hive-release-0.12.0"/>
+	<classpathentry kind="lib" path="lib/hive-hbase-handler-0.12.0.jar"/>
+	<classpathentry kind="lib" path="lib/hive-hwi-0.12.0.jar"/>
+	<classpathentry kind="lib" path="lib/hive-hwi-0.12.0.war"/>
+	<classpathentry kind="lib" path="lib/hive-jdbc-0.12.0.jar"/>
+	<classpathentry kind="lib" path="lib/hive-metastore-0.12.0.jar" sourcepath="D:/java/hive-release-0.12.0"/>
+	<classpathentry kind="lib" path="lib/hive-serde-0.12.0.jar"/>
+	<classpathentry kind="lib" path="lib/hive-service-0.12.0.jar"/>
+	<classpathentry kind="lib" path="lib/hive-shims-0.12.0.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-asl-1.8.8.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-jaxrs-1.8.8.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-mapper-asl-1.8.8.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-xc-1.8.8.jar"/>
+	<classpathentry kind="lib" path="lib/JavaEWAH-0.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/javolution-5.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/jdo-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-6.1.26.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-util-6.1.26.jar"/>
+	<classpathentry kind="lib" path="lib/jline-0.9.94.jar"/>
+	<classpathentry kind="lib" path="lib/json-20090211.jar"/>
+	<classpathentry kind="lib" path="lib/libfb303-0.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/libthrift-0.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/maven-ant-tasks-2.1.3.jar"/>
+	<classpathentry kind="lib" path="lib/metrics-core-2.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/servlet-api-2.5-20081211.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/snappy-0.2.jar"/>
+	<classpathentry kind="lib" path="lib/ST4-4.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/tempus-fugit-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/xz-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/zookeeper-3.4.3.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-core-1.0.0.jar" sourcepath="/read-hadoop-1.0.1-ddc4966"/>
+	<classpathentry kind="lib" path="lib/junit-4.8.2.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.7-bin.jar"/>
+	<classpathentry kind="lib" path="/cdc-data-util-lib/lib/commons-httpclient-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-tools-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-test-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/pig-0.12.0.jar" sourcepath="D:/java/hive-release-0.12.0/lib/pig-0.12.0-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
