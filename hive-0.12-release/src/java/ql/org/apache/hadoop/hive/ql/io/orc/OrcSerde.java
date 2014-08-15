@@ -68,7 +68,7 @@ public class OrcSerde implements SerDe {
   //columns=contract_line_id,st_date,contract_no,frame_policy_no,ad_src_id,ad_page_id,ad_channel_id,prodline_id,prod_channel_id
   //columns.types=bigint:string:string:string:bigint:bigint:bigint:bigint:bigint
   @Override
-  public void initialize(Configuration conf_null, Properties table) {
+  public void initialize(Configuration conf, Properties table) {
     // Read the configuration parameters
     String columnNameProperty = table.getProperty("columns");
     // NOTE: if "columns.types" is missing, all columns will be of String type

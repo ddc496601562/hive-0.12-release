@@ -65,7 +65,14 @@ public class OrcInputFormat  extends FileInputFormat<NullWritable, OrcStruct>
     private final long length;
     private final int numColumns;
     private float progress = 0.0f;
-
+    /*是用到了conf中的信息  
+     * TableScanDesc.FILTER_EXPR_CONF_STR(hive.io.filter.expr.serialized):谓词下推信息
+     * ColumnProjectionUtils.READ_COLUMN_NAMES_CONF_STR(hive.io.file.readcolumn.names):clicktype,acct_id,plan_id,unit_id
+     * ColumnProjectionUtils.READ_COLUMN_IDS_CONF_STR(hive.io.file.readcolumn.ids): 0,1,2,3,4,5,6,7
+     * 第二个用于列裁剪、第一个第三个用于谓词下推 
+     * 
+    */
+    
     public OrcRecordReader(Reader file, Configuration conf,long offset, long length) throws IOException {
   try{
     	PrintStream out=new PrintStream("/home/work/local/hive-0.12.0-bin/bin/conf.conf");

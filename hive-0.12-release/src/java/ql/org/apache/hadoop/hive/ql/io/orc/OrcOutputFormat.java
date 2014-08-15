@@ -105,12 +105,14 @@ public class OrcOutputFormat extends FileOutputFormat<NullWritable, OrcSerdeRow>
       getRecordWriter(FileSystem fileSystem, JobConf conf, String name,
                       Progressable reporter) throws IOException {
 	  System.out.println("use getRecordWriter method !!");
-  	PrintStream out=new PrintStream("/home/work/local/hive-0.12.0-bin/bin/output.conf");
+  	try{
+	  PrintStream out=new PrintStream("/home/work/local/hive-0.12.0-bin/bin/output.conf");
   	Iterator<Entry<String, String>> iterator=conf.iterator();
   	while(iterator.hasNext()){
   		Entry<String, String> entry=iterator.next();
   		out.println(entry.getKey()+"						"+entry.getValue());
   	}
+  	}catch(Exception e){}
     return new
       OrcRecordWriter(new Path(name), OrcFile.writerOptions(conf));
   }
